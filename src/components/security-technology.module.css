@@ -1,0 +1,106 @@
+.caption {
+  line-height: 24px;
+  font-weight: 600;
+  text-align: left;
+  display: none;
+}
+.caption,
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  margin: 0;
+  font-size: var(--desktop-heading-1-size);
+  line-height: 60px;
+  font-weight: 400;
+  font-family: var(--desktop-heading-1);
+}
+.description {
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+}
+.letsConnect {
+  position: relative;
+  font-size: var(--desktop-button-1-size);
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--desktop-button-1);
+  color: var(--white);
+  text-align: center;
+  min-width: 101px;
+}
+.button,
+.securityTechnology,
+.textBlockH1p1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--gradients);
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90.07deg, #582ffb, #ae4e05);
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.securityTechnology,
+.textBlockH1p1 {
+  justify-content: center;
+  max-width: 100%;
+}
+.textBlockH1p1 {
+  width: 1100px;
+  gap: var(--gap-3xs);
+}
+.securityTechnology {
+  align-self: stretch;
+  background-color: var(--white);
+  overflow: hidden;
+  padding: var(--padding-71xl) var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 5;
+  margin-top: -1px;
+  text-align: center;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1150px) {
+  .securityTechnology {
+    padding: var(--padding-91xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .securityTechnology {
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .description {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+  .securityTechnology {
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

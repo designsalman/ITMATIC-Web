@@ -1,0 +1,103 @@
+.hisExpertiseAs {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  line-height: 36px;
+}
+.frameChild {
+  height: 67px;
+  width: 67px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.saurabhSharma {
+  position: relative;
+  line-height: 36px;
+}
+.chitkaraUniversity {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--desktop-paragraph-1);
+}
+.saurabhSharmaParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.ellipseParent {
+  width: 256px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-6xs-7);
+  text-align: left;
+}
+.hisExpertiseAsAProductDesParent,
+.review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.hisExpertiseAsAProductDesParent {
+  width: 1100px;
+  background-color: var(--portfolio-moc);
+  justify-content: center;
+  padding: var(--padding-41xl) var(--padding-51xl);
+  gap: var(--gap-base);
+}
+.review {
+  align-self: stretch;
+  background-color: var(--white);
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) var(--padding-41xl);
+  min-height: 409px;
+  flex-shrink: 0;
+  z-index: 4;
+  margin-top: -1px;
+  text-align: center;
+  font-size: var(--desktop-heading-2-size);
+  color: var(--black);
+  font-family: var(--desktop-heading-1);
+}
+@media screen and (max-width: 1150px) {
+  .hisExpertiseAsAProductDesParent,
+  .review {
+    padding-left: var(--padding-16xl);
+    padding-right: var(--padding-16xl);
+    box-sizing: border-box;
+  }
+  .review {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    padding-bottom: var(--padding-91xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .review {
+    padding-left: var(--padding-21xl);
+    padding-right: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .hisExpertiseAs,
+  .saurabhSharma {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .review {
+    padding-left: var(--padding-base);
+    padding-right: var(--padding-base);
+    padding-bottom: var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}

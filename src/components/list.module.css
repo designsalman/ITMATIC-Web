@@ -1,0 +1,60 @@
+.heading3 {
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  min-width: 32px;
+}
+.analyzeYourCurrent,
+.heading31 {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.analyzeYourCurrent {
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--desktop-paragraph-1);
+}
+.heading3AccessibilityParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-8xs);
+  min-width: 268px;
+  max-width: 100%;
+  font-size: var(--desktop-paragraph-1-size);
+}
+.list5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-11xl);
+  color: var(--black);
+  font-family: var(--desktop-heading-1);
+}
+@media screen and (max-width: 1050px) {
+  .heading3 {
+    font-size: var(--desktop-heading-2-size);
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: var(--font-size-lg);
+    line-height: 18px;
+  }
+  .heading31 {
+    font-size: var(--desktop-button-1-size);
+    line-height: 24px;
+  }
+  .list5 {
+    flex-wrap: wrap;
+  }
+}

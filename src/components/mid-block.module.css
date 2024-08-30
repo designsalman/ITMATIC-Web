@@ -1,0 +1,135 @@
+.caption {
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--white);
+  display: none;
+}
+.caption,
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.title {
+  margin: 0;
+  font-size: var(--desktop-heading-1-size);
+  line-height: 60px;
+  font-weight: 400;
+  font-family: var(--desktop-heading-1);
+}
+.description {
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+}
+.letsConnect {
+  position: relative;
+  font-size: var(--desktop-button-1-size);
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--desktop-button-1);
+  color: var(--white);
+  text-align: center;
+  min-width: 101px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--black);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-darkslategray-100);
+}
+.listBlock,
+.midBlock,
+.textBlockH1p1 {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.textBlockH1p1 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  min-width: 360px;
+}
+.listBlock,
+.midBlock {
+  justify-content: flex-start;
+}
+.listBlock {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-xl);
+  min-width: 360px;
+  font-size: var(--font-size-11xl);
+  font-family: var(--desktop-heading-1);
+}
+.midBlock {
+  align-self: stretch;
+  background-color: var(--white);
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-71xl) var(--padding-153xl) var(--padding-71xl)
+    var(--padding-151xl);
+  box-sizing: border-box;
+  gap: 170px 168px;
+  flex-shrink: 0;
+  z-index: 2;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1200px) {
+  .midBlock {
+    gap: var(--gap-65xl);
+    padding-left: var(--padding-66xl);
+    padding-right: var(--padding-67xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .midBlock {
+    padding: var(--padding-91xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .midBlock {
+    gap: var(--gap-23xl);
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .description {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+  .midBlock {
+    gap: var(--gap-2xl);
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

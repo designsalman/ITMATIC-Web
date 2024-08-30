@@ -1,0 +1,190 @@
+.caption {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: none;
+}
+.onlineEducation {
+  color: var(--portfolio-moc);
+}
+.title {
+  margin: 0;
+  font-size: var(--desktop-heading-1-size);
+  line-height: 60px;
+  font-weight: 400;
+  font-family: var(--desktop-heading-1);
+}
+.description,
+.letsConnect,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.description {
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+}
+.letsConnect {
+  height: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 149px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90.07deg, #582ffb, #ae4e05);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--white);
+}
+.textBlockH1p1 {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.vectorIcon {
+  height: 42px;
+  width: 28px;
+  position: relative;
+}
+.component1 {
+  width: 50px;
+  overflow: hidden;
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-9) var(--padding-3xs);
+  box-sizing: border-box;
+}
+.p {
+  margin: 0;
+}
+.defineTheProjects,
+.heading3Container {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.defineTheProjects {
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--desktop-paragraph-1);
+}
+.cardBlockWhiteH2p2,
+.component1Parent {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+}
+.component1Parent {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.cardBlockWhiteH2p2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 360px;
+  max-width: 100%;
+}
+.cardList,
+.securityTechnology {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.cardList {
+  width: 1100px;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 10px 8px;
+  min-height: 513px;
+  font-size: var(--desktop-paragraph-1-size);
+  font-family: var(--desktop-heading-1);
+}
+.securityTechnology {
+  align-self: stretch;
+  background-color: var(--grey-background);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-71xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  flex-shrink: 0;
+  z-index: 5;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1150px) {
+  .securityTechnology {
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-91xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .securityTechnology {
+    padding-bottom: var(--padding-39xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .securityTechnology {
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .description,
+  .heading3Container {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+  .heading3Container {
+    line-height: 24px;
+  }
+  .securityTechnology {
+    align-items: flex-start;
+    justify-content: center;
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

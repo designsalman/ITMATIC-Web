@@ -1,0 +1,137 @@
+.chitkaraLogo1 {
+  width: 133.2px;
+  height: 51px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.caption,
+.description,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.caption {
+  line-height: 24px;
+  font-weight: 600;
+  color: var(--black);
+  display: none;
+}
+.description,
+.title {
+  font-size: var(--desktop-heading-1-size);
+  line-height: 60px;
+  font-family: var(--desktop-heading-1);
+}
+.description {
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+  display: none;
+}
+.letsConnect {
+  position: relative;
+  font-size: var(--desktop-button-1-size);
+  line-height: 24px;
+  display: inline-block;
+  font-family: var(--desktop-button-1);
+  color: var(--black);
+  text-align: center;
+  min-width: 101px;
+}
+.button {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-xs) var(--padding-5xl);
+  background-color: var(--white);
+  border-radius: var(--br-11xl);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  white-space: nowrap;
+}
+.button:hover {
+  background-color: var(--color-gainsboro);
+}
+.chitkaraLogo1Parent,
+.textBlockH1p1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-11xl);
+}
+.textBlockH1p1 {
+  align-self: stretch;
+}
+.chitkaraLogo1Parent {
+  flex: 1;
+  min-width: 435px;
+  max-width: 100%;
+}
+.icon {
+  width: 400px;
+  position: relative;
+  max-height: 100%;
+  object-fit: cover;
+  max-width: 100%;
+}
+.heroSection {
+  align-self: stretch;
+  background-color: var(--color-gray-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-71xl) var(--padding-61xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  flex-shrink: 0;
+  max-width: 100%;
+  z-index: 2;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--desktop-button-1-size);
+  color: var(--white);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1125px) {
+  .icon {
+    flex: 1;
+  }
+  .heroSection {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+  .chitkaraLogo1Parent {
+    min-width: 100%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .heroSection {
+    gap: var(--gap-mini);
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .description {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+  .heroSection {
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

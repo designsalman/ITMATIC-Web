@@ -1,0 +1,185 @@
+.caption {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  display: none;
+}
+.excellence {
+  background: linear-gradient(90.07deg, #582ffb, #ae4e05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.title {
+  margin: 0;
+  font-size: var(--desktop-heading-1-size);
+  line-height: 60px;
+  font-weight: 400;
+  font-family: var(--desktop-heading-1);
+}
+.description,
+.letsConnect,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.description {
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+}
+.letsConnect {
+  height: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button {
+  width: 149px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90.07deg, #582ffb, #ae4e05);
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--white);
+}
+.textBlockH1p1 {
+  width: 1100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.techSolutionIcons {
+  height: 42px;
+  width: 28px;
+  position: relative;
+}
+.component1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-8xs-9) var(--padding-2xs);
+}
+.heading3 {
+  align-self: stretch;
+  position: relative;
+  line-height: 30px;
+}
+.wePrioritizeYour {
+  margin: 0;
+}
+.defineTheProjectsContainer {
+  align-self: stretch;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--desktop-paragraph-1);
+  display: inline-block;
+  min-height: 108px;
+}
+.cardBlockWhiteH2p2,
+.featureIcons {
+  flex: 1;
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.featureIcons {
+  flex-direction: column;
+  justify-content: center;
+  gap: var(--gap-3xs);
+}
+.cardBlockWhiteH2p2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--white);
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: var(--padding-11xl) var(--padding-xl);
+  box-sizing: border-box;
+  min-width: 360px;
+}
+.securityTechnology,
+.technologyFeatures {
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-11xl);
+  max-width: 100%;
+}
+.technologyFeatures {
+  width: 1100px;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  font-size: var(--desktop-paragraph-1-size);
+  font-family: var(--desktop-heading-1);
+}
+.securityTechnology {
+  align-self: stretch;
+  background-color: var(--grey-background);
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-71xl) var(--padding-xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 8;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1150px) {
+  .securityTechnology {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .securityTechnology {
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .description,
+  .heading3 {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+  .heading3 {
+    line-height: 24px;
+  }
+  .cardBlockWhiteH2p2 {
+    min-width: 100%;
+  }
+  .securityTechnology {
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,106 @@
+.moc3Icon {
+  height: 81px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.innerContent {
+  width: 156px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0;
+  box-sizing: border-box;
+}
+.component1Icon {
+  width: 42px;
+  height: 42px;
+  position: relative;
+  display: none;
+}
+.heading3 {
+  width: 1080px;
+  position: relative;
+  line-height: 36px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.myOnlineCollege {
+  margin: 0;
+}
+.scalableWebApplicationsContainer1 {
+  width: 100%;
+}
+.scalableWebApplicationsContainer {
+  width: 1080px;
+  position: relative;
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+.learnMore {
+  width: 338px;
+  position: relative;
+  font-size: var(--desktop-button-1-size);
+  line-height: 24px;
+  display: none;
+  font-family: var(--desktop-button-1);
+  color: var(--link-blue);
+  white-space: nowrap;
+  max-width: 100%;
+}
+.cardBlockH2p2,
+.content {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.content {
+  background-color: var(--white);
+  padding: var(--padding-71xl) var(--padding-151xl);
+  box-sizing: border-box;
+  flex-shrink: 0;
+  z-index: 3;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--desktop-heading-2-size);
+  color: var(--black);
+  font-family: var(--desktop-heading-1);
+}
+@media screen and (max-width: 1150px) {
+  .content {
+    padding: var(--padding-91xl) var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .content {
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .heading3 {
+    font-size: var(--font-size-lgi);
+    line-height: 29px;
+  }
+  .scalableWebApplicationsContainer {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+  .content {
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

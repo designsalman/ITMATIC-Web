@@ -1,0 +1,166 @@
+.imageTypeIcon {
+  width: 53.5px;
+  height: 30px;
+  position: relative;
+  object-fit: cover;
+}
+.quoteImages {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.salmansDesignExpertise {
+  margin: 0;
+  flex: 1;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  max-width: 100%;
+}
+.salmansDesignExpertiseIsTWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.avatarShapeIcon {
+  height: 44.9px;
+  width: 44.9px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.authorAvatars {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.shankarRamchandran,
+.zuki {
+  align-self: stretch;
+  position: relative;
+}
+.zuki {
+  font-size: var(--font-size-smi-6);
+  font-family: var(--font-source-sans-pro);
+}
+.authorInfo,
+.authorNames {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.authorNames {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  min-width: 284px;
+}
+.authorInfo {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  gap: var(--gap-8xs-5);
+  font-size: var(--font-size-sm);
+  font-family: var(--desktop-heading-1);
+}
+.quoteContainers {
+  flex: 1;
+  border-radius: 5.39px;
+  background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-16xl-9) var(--padding-8xl) var(--padding-17xl)
+    var(--padding-7xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+  min-width: 358px;
+  max-width: 100%;
+}
+.clipPathGroup {
+  width: 290.8px;
+  height: 16px;
+  position: relative;
+}
+.agency1,
+.frameParent {
+  align-self: stretch;
+  align-items: flex-start;
+}
+.agency1 {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent {
+  flex-direction: row;
+  gap: var(--gap-8xs-5);
+  font-size: var(--font-size-mini);
+  font-family: var(--desktop-heading-1);
+}
+.frameParent,
+.testimonialQuotes,
+.testimonials {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+.testimonialQuotes {
+  width: 1100px;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 20px 18px;
+  text-align: left;
+  font-size: var(--font-size-lg);
+  font-family: var(--desktop-paragraph-1);
+}
+.testimonials {
+  align-self: stretch;
+  background-color: var(--grey-background);
+  flex-direction: column;
+  align-items: center;
+  padding: var(--padding-71xl) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-11xl);
+  flex-shrink: 0;
+  z-index: 10;
+  margin-top: -1px;
+  text-align: center;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1150px) {
+  .testimonials {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 750px) {
+  .authorInfo,
+  .frameParent {
+    flex-wrap: wrap;
+  }
+  .testimonials {
+    padding: var(--padding-61xl) var(--padding-21xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .testimonials {
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

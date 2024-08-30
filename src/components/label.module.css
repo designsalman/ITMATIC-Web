@@ -1,0 +1,38 @@
+.lefticon,
+.text {
+  position: relative;
+}
+.lefticon {
+  height: 14px;
+  width: 14px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  line-height: 24px;
+}
+.label {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 var(--padding-297xl) 0 0;
+  gap: var(--gap-9xs);
+  text-align: left;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 750px) {
+  .label {
+    padding-right: var(--padding-139xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .label {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

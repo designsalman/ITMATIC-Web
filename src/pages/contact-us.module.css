@@ -1,0 +1,55 @@
+.imageIcon {
+  align-self: stretch;
+  height: 278px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.imageWrapper {
+  height: 821px;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.formParent,
+.frameParent,
+.imageWrapper {
+  display: flex;
+  max-width: 100%;
+}
+.formParent {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 278px;
+  margin-left: -1440px;
+}
+.frameParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: center;
+}
+.contactUs {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  line-height: normal;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 750px) {
+  .formParent {
+    gap: 139px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .formParent {
+    gap: 69px;
+  }
+}

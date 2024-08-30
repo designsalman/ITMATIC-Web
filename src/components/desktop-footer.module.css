@@ -1,0 +1,479 @@
+.letsCollab {
+  margin: 0;
+  width: 550px;
+  position: relative;
+  font-size: var(--desktop-heading-1-size);
+  letter-spacing: -0.02em;
+  display: inline-block;
+  font-style: italic;
+  font-weight: 400;
+  font-family: inherit;
+  max-width: 100%;
+}
+.aboutItmatic,
+.itmaticIsDedicated {
+  width: 338px;
+  position: relative;
+  max-width: 100%;
+}
+.aboutItmatic {
+  line-height: 30px;
+  display: inline-block;
+}
+.itmaticIsDedicated {
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--desktop-paragraph-1);
+  display: flex;
+  align-items: center;
+}
+.aboutColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  min-width: 320px;
+  max-width: 100%;
+}
+.service {
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+}
+.servicesHeading {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-3xs);
+}
+.mobileAppDevelopment {
+  margin: 0;
+}
+.mobileAppDevelopmentContainer {
+  flex: 1;
+  position: relative;
+  line-height: 27px;
+}
+.servicesColumn,
+.servicesHeading1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.servicesHeading1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-3xs);
+  font-size: var(--font-size-lg);
+  font-family: var(--desktop-paragraph-1);
+}
+.servicesColumn {
+  flex: 0.8883;
+  flex-direction: column;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xs);
+  min-width: 143px;
+  max-width: 100%;
+}
+.frameChild {
+  width: 7.7px;
+  height: 33.3px;
+  position: relative;
+}
+.vectorWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs-8) 0 0;
+}
+.iconBackgrounds {
+  height: 25.2px;
+  width: 7.6px;
+  top: 10.08px;
+  left: 18.09px;
+  background-color: var(--white);
+  transform: rotate(45.8deg);
+  transform-origin: 0 0;
+}
+.frameItem,
+.iconBackgrounds,
+.iconBackgrounds1 {
+  position: absolute;
+  margin: 0 !important;
+}
+.iconBackgrounds1 {
+  height: 25.6px;
+  width: 7.6px;
+  top: 11.94px;
+  left: 38.49px;
+  background-color: var(--white);
+  transform: rotate(-45.2deg);
+  transform-origin: 0 0;
+}
+.frameItem {
+  height: 22.7px;
+  width: 22.3px;
+  bottom: 10.1px;
+  left: 0.1px;
+  object-fit: contain;
+  z-index: 1;
+}
+.itmatic {
+  text-decoration: none;
+  position: relative;
+  letter-spacing: 0.54em;
+  line-height: 17px;
+  color: inherit;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+}
+.frameInner,
+.iconBackgrounds2 {
+  position: absolute;
+  margin: 0 !important;
+  z-index: 1;
+}
+.iconBackgrounds2 {
+  height: 7.6px;
+  width: 7.6px;
+  top: -0.03px;
+  left: 28.01px;
+  background-color: var(--white);
+  transform: rotate(45.1deg);
+  transform-origin: 0 0;
+}
+.frameInner {
+  height: 22.8px;
+  width: 22.6px;
+  bottom: 10.3px;
+  left: 33.1px;
+  object-fit: contain;
+}
+.contactHeading,
+.contactHeading1,
+.frameParent {
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.frameParent {
+  width: 217.3px;
+  display: flex;
+  justify-content: space-between;
+  padding: var(--padding-lgi-1) 0 0 var(--padding-5xl);
+  position: relative;
+  gap: var(--gap-xl);
+  text-align: left;
+}
+.contactHeading,
+.contactHeading1 {
+  width: 338px;
+  padding: 0 var(--padding-3xs);
+}
+.contactHeading {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--desktop-paragraph-1-size);
+  font-family: var(--desktop-heading-1);
+}
+.contactHeading1 {
+  font-size: var(--font-size-lg);
+}
+.contactColumn,
+.contactHeading1,
+.desktopMenu {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.contactColumn {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-8xs);
+  min-width: 143px;
+  text-align: right;
+  font-size: var(--font-size-xl-1);
+  font-family: var(--desktop-paragraph-1);
+}
+.desktopMenu {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.aboutItmatic1 {
+  align-self: stretch;
+  height: 30px;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+}
+.itmaticIsDedicated1 {
+  align-self: stretch;
+  height: 189px;
+  position: relative;
+  font-size: var(--font-size-lg);
+  line-height: 27px;
+  font-family: var(--desktop-paragraph-1);
+  display: flex;
+  align-items: center;
+}
+.aboutItmaticParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  min-width: 320px;
+}
+.service1 {
+  flex: 1;
+  position: relative;
+  line-height: 30px;
+  display: inline-block;
+  max-width: 100%;
+}
+.serviceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+.mobileAppDevelopmentContainer1 {
+  flex: 1;
+  position: relative;
+  line-height: 34px;
+  display: inline-block;
+  max-width: 100%;
+}
+.mobileAppDevelopmentWebAppWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+  font-family: var(--desktop-paragraph-1);
+}
+.frameGroup {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+}
+.itmatic1 {
+  position: absolute;
+  top: 19.1px;
+  left: 71.3px;
+  letter-spacing: 0.54em;
+  line-height: 16.48px;
+  text-shadow: 0.5px 0 0#fff, 0 0.5px 0#fff, -0.5px 0 0#fff, 0-0.5px 0#fff;
+}
+.frameChild1,
+.rectangleDiv {
+  position: absolute;
+  top: 10.08px;
+  left: 18.09px;
+  background-color: var(--white);
+  width: 7.6px;
+  height: 25.2px;
+  transform: rotate(45.8deg);
+  transform-origin: 0 0;
+}
+.frameChild1 {
+  top: 11.94px;
+  left: 38.49px;
+  height: 25.6px;
+  transform: rotate(-45.2deg);
+}
+.rectangleIcon {
+  position: absolute;
+  top: 22.4px;
+  left: 0.1px;
+  width: 22.3px;
+  height: 22.7px;
+  object-fit: contain;
+}
+.frameChild2,
+.frameChild3 {
+  position: absolute;
+  top: 21.9px;
+  left: 24.2px;
+  width: 7.7px;
+  height: 33.3px;
+}
+.frameChild3 {
+  top: -0.03px;
+  left: 28.01px;
+  background-color: var(--white);
+  width: 7.6px;
+  height: 7.6px;
+  transform: rotate(45.1deg);
+  transform-origin: 0 0;
+}
+.frameChild4 {
+  position: absolute;
+  top: 22.1px;
+  left: 33.1px;
+  width: 22.6px;
+  height: 22.8px;
+  object-fit: contain;
+}
+.itmaticParent {
+  width: 217.3px;
+  height: 55.2px;
+  position: relative;
+}
+.getInTouchWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--desktop-paragraph-1-size);
+  font-family: var(--desktop-heading-1);
+}
+.sco46SectorContainer1 {
+  flex: 1;
+  position: relative;
+  line-height: 27px;
+  display: inline-block;
+  max-width: 100%;
+}
+.frameContainer,
+.sco46Sector80Mohali140Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  max-width: 100%;
+  font-size: var(--font-size-lg);
+}
+.frameContainer {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-xl-1);
+  font-family: var(--desktop-paragraph-1);
+}
+.desktopFooter,
+.footerContainer,
+.mobileMenu {
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.mobileMenu {
+  width: 388px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 0 var(--padding-11xl) 0 0;
+  gap: var(--gap-21xl);
+}
+.desktopFooter,
+.footerContainer {
+  display: flex;
+}
+.footerContainer {
+  width: 1100px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-31xl) 0;
+  gap: var(--gap-27xl);
+}
+.desktopFooter {
+  align-self: stretch;
+  background: linear-gradient(90.07deg, #582ffb, #ae4e05);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-21xl) var(--padding-xl);
+  flex-shrink: 0;
+  z-index: 11;
+  margin-top: -1px;
+  text-align: left;
+  font-size: var(--desktop-paragraph-1-size);
+  color: var(--white);
+  font-family: var(--desktop-heading-1);
+}
+@media screen and (max-width: 1150px) {
+  .desktopFooter {
+    padding-left: var(--padding-61xl);
+    padding-right: var(--padding-61xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .letsCollab {
+    font-size: var(--font-size-19xl);
+  }
+}
+@media screen and (max-width: 750px) {
+  .desktopMenu {
+    display: none;
+  }
+  .mobileMenu {
+    display: flex;
+  }
+  .footerContainer {
+    gap: var(--gap-4xl);
+  }
+  .desktopFooter {
+    padding-bottom: var(--padding-7xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .letsCollab {
+    font-size: var(--font-size-10xl);
+  }
+  .aboutItmatic,
+  .service {
+    font-size: var(--desktop-button-1-size);
+    line-height: 24px;
+  }
+  .aboutItmatic1,
+  .itmatic,
+  .itmatic1,
+  .service1 {
+    font-size: var(--desktop-button-1-size);
+    line-height: 13px;
+  }
+  .aboutItmatic1,
+  .itmatic1,
+  .service1 {
+    line-height: 24px;
+  }
+  .itmatic1 {
+    line-height: 13px;
+  }
+  .footerContainer {
+    padding-top: var(--padding-21xl);
+    padding-bottom: var(--padding-13xl);
+    box-sizing: border-box;
+  }
+  .desktopFooter {
+    padding: var(--padding-41xl) var(--padding-base);
+    box-sizing: border-box;
+  }
+}

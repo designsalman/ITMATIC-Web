@@ -1,0 +1,45 @@
+.lefticon,
+.text {
+  position: relative;
+}
+.lefticon {
+  height: 16px;
+  width: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.text {
+  width: calc(100% - 16px);
+  border: 0;
+  outline: 0;
+  font-family: var(--desktop-paragraph-1);
+  font-size: var(--font-size-lg);
+  background-color: var(--gradients);
+  height: 27px;
+  flex: 1;
+  line-height: 27px;
+  color: var(--color-gray-200);
+  text-align: left;
+  display: flex;
+  align-items: center;
+  min-width: 250px;
+  white-space: nowrap;
+  max-width: calc(100% - 24px);
+  padding: 0;
+}
+.righticon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.inputinnercontainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  max-width: 100%;
+}

@@ -1,0 +1,74 @@
+.caption {
+  align-self: stretch;
+  position: relative;
+  line-height: 24px;
+  font-weight: 600;
+  text-align: left;
+}
+.title {
+  margin: 0;
+  font-size: var(--desktop-heading-1-size);
+  line-height: 60px;
+  font-weight: 400;
+  font-family: var(--desktop-heading-1);
+}
+.description,
+.letsConnect,
+.title {
+  align-self: stretch;
+  position: relative;
+}
+.description {
+  font-size: var(--desktop-paragraph-1-size);
+  line-height: 32px;
+  font-family: var(--desktop-paragraph-1);
+}
+.letsConnect {
+  height: 24px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.button,
+.textBlockH1p1 {
+  flex-direction: column;
+  align-items: center;
+}
+.button {
+  width: 149px;
+  border-radius: var(--br-11xl);
+  background: linear-gradient(90.07deg, #582ffb, #ae4e05);
+  justify-content: flex-start;
+  padding: var(--padding-xs) var(--padding-5xl);
+  box-sizing: border-box;
+  white-space: nowrap;
+  color: var(--white);
+}
+.textBlockH1p1 {
+  width: 1100px;
+  display: flex;
+  justify-content: center;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--desktop-button-1-size);
+  color: var(--black);
+  font-family: var(--desktop-button-1);
+}
+@media screen and (max-width: 1050px) {
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 48px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 36px;
+  }
+  .description {
+    font-size: var(--desktop-button-1-size);
+    line-height: 26px;
+  }
+}
